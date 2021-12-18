@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu primeiro Site</title>
+    <link rel="icon" href="" type="image/jpg" sizes="16x16">
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+    <!-- <link rel="stylesheet" type="text/css" href="css/styles.css"> -->
+    <link type="text/css" rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+ <header>
+    <nav class="menu_top">
+        <img class="img-logo" src="img/senai_final.jpg" alt="Logo Senai">
+        <ul class="menu">
+            <a class="linkMenu" href="jogos.html">Jogos</a>
+             <a class="linkMenu" href="hardware.html">Hardware</a>
+             <a class="linkMenu" href="celulares.html">Celulares</a>
+             <a class="linkMenu" href="pc-Gamer.html">Pc Gamer</a>
+             <a class="linkMenu" href="contatos.html">Contatos</a>
+             <a class="linkMenu login" href="login.html">login</a>
+        </ul>
+    </nav>
+ </header> 
+        <div class="section-banner-home">
+            <div class="container-fluid">
+                <div class="row m-0">
+                    <div class="col-12 col-md-6">
+                        <figure>
+                            <img src="img/pc_gamer.jpg" alt="Video Game">
+                        </figure>                        
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <section class="texto-banner d-none d-md-block">
+                        <h1>Venha conhecer nosso diferencial</h1>
+                        <p class="d-none d-md-block">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit maxime explicabo officia est dolore odio, iusto, accusamus repellat sed consectetur repudiandae minima ad numquam. Dolor labore commodi illo laudantium officia!</p>
+                        <a href="jogos.html">Saiba mais!</a>
+                    </section>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- início do formulário de contato-->
+        <div class="container contact">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="contact-info">
+                        <img src="https://image.ibb.co/kUASdV/contact-image.png" alt="image"/>
+                        <h2>Entre em contato!</h2>
+                        <h4>Será um prazer ouvir você!</h4>
+                    </div>
+                </div>
+                <div class="col-md-9">
+                    <div class="contact-form">
+                        <div class="form-group">
+                          <label class="control-label col-sm-2" for="fname">Primeiro Nome:</label>
+                          <div class="col-sm-10">          
+                            <input type="text" class="form-control" id="fname" placeholder="Enter First Name" name="fname">
+                          </div>
+                        </div>
+                        <div class="form-group">
+                          <label class="control-label col-sm-2" for="lname">Último Nome:</label>
+                          <div class="col-sm-10">          
+                            <input type="text" class="form-control" id="lname" placeholder="Enter Last Name" name="lname">
+                          </div>
+                        </div>
+                        <div class="form-group">
+                          <label class="control-label col-sm-2" for="email">E-mail:</label>
+                          <div class="col-sm-10">
+                            <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+                          </div>
+                        </div>
+                        <div class="form-group">
+                          <label class="control-label col-sm-2" for="comment">Mensagem:</label>
+                          <div class="col-sm-10">
+                            <textarea class="form-control" rows="5" id="comment"></textarea>
+                          </div>
+                        </div>
+                        <div class="form-group">        
+                          <div class="col-sm-offset-2 col-sm-10">
+                            <button type="submit" class="btn btn-default">Enviar</button>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Fim do formulário de contato--> 
+    <div class="destaque">
+        <div class="container"></div>
+        <div class="row d-flex justify-content-center">
+            <!--ínicio da tag section com o texto destaque-->
+            <section class="col-12">
+                <h2>Que tal conhecer nossas obras em destaque? <h2>
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, nam molestias aliquid facilis nesciunt odit consequuntur voluptatem numquam corrupti blanditiis. Saepe voluptates maiores adipisci quis? Ipsum pariatur ut cum fugit?</p>
+                
+            </section>
+            <!--fim da tag section com texto destaque-->
+            <!--ínicio da imagem 1-->
+            <div class="col-6 col-md-2 pr-0">
+                <figure>
+                    <a href="jogos.html"><img src="img/pc_completo.jpg" alt="galeria" width=100%></a>
+                </figure>
+            </div>
+            <!--fim da imagem 1-->
+            <!--ínicio da imagem 2-->
+            <div class="col-6 col-md-2 pr-0">
+                <figure>
+                    <a href="jogos.html"><img src="img/pc_g.jpg" alt="galeria" width=100%></a>
+                </figure>
+            </div>
+            <!--fim da imagem 2-->
+            <!--ínicio da imagem 3-->
+            <div class="col-6 col-md-2 pr-0">
+                <figure>
+                    <a href="jogos.html"><img src="img/tela_pc.jpg" alt="galeria" width=100%></a>
+                </figure>
+            </div>
+            <!--fim da imagem 3-->
+            <!--ínicio da imagem 4-->
+            <div class="col-6 col-md-2 pr-0">
+                <figure>
+                    <a href="jogos.html"><img src="img/cabine_pc.jpg" alt="galeria" width=100%></a>
+                </figure>
+            </div>
+            <!--fim da imagem 4-->
+            <!--ínicio da imagem 5-->
+            <div class="col-6 col-md-2 pr-0">
+                <figure>
+                    <a href="jogos.html"><img src="img/jogo_pc.jpg" alt="galeria" width=100%></a>
+                </figure>
+            </div>
+            <!--fim da imagem 5-->
+            <!--ínicio saiba mais-->
+            <div class="col-12">
+                <a href="#">Saiba mais.</a>
+            </div>
+            <!--fim do saiba mais-->
+        </div>
+    </div>
+    </div>    
+    <div class="destaque">
+    </div>   
+    <div class="novidades">
+        <div class= "container-fluid">
+             <div class="row">
+                 <!-- Ínicio do texto das novidades-->
+                 <div class="col-md-6">
+                     <section class="text-body">
+                         <h2>Venha conhecer nossas novidades</h2>
+                         <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, nihil similique recusandae necessitatibus at doloribus debitis asperiores officia fugiat dolore, cum assumenda id totam quo amet tenetur quidem veritatis odio!</p>
+                         <a class="btn-banner" href="#" target="_blank"> Saiba Mais.</a>
+                     </section>
+                 </div>
+                 <!-- fim do texto novidades-->
+                 <div class="col-md-6">
+                     <figure>
+                         <img src="img/computador_gamer.jpg" class="img-fluid"
+                         alt="banner-home">
+                     </figure>
+                 </div>
+                 <!--fim da imagem das novidades-->
+             </div>
+        </div>
+    </div>
+    <div class="galeria d-flex align-items-center">
+        <div class="container">
+            <div class="row">
+                <!--Ínicio do texto da galeria-->
+                <div class="col-12">
+                    <section class="texto-galeria">
+                        <h2.>Conheça nossa galeria.</h2.>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error et, dolor quaerat quo tempore qui expedita consequatur laboriosam architecto sed similique illum cumque nobis cupiditate natus accusantium at hic voluptates?</p>
+                    </section>
+                </div>
+                <!--Fim do texto da galeria-->
+                <!--ínicio da imagem 1 da galeria-->
+                <div class="gallery col-6 col-md-3">
+                    <img src="img/portatil.jpg" class="img-fluid"
+                    alt="img-galeria">
+                </div>
+                <!--Fim da imagem 1 da galeia -->
+                <!--ínicio da imagem 2 da galeria-->
+                <div class="gallery col-6 col-md-3">
+                    <img src="img/play_sta.jpg" class="img-fluid"
+                    alt="img-galeria">
+                </div>
+                <!--Fim da imagem 2 da galeia -->
+                <!--ínicio da imagem 3 da galeria-->
+                <div class="gallery col-6 col-md-3">
+                    <img src="img/x_box.jpg" class="img-fluid"
+                    alt="img-galeria">
+                </div>
+                <!--Fim da imagem 3 da galeia -->
+                <!--ínicio da imagem 4 da galeria-->
+                <div class="gallery col-6 col-md-3">
+                    <img src="img/video_gamer.jpg" class="img-fluid"
+                    alt="img-galeria">
+                </div>
+                <!--Fim da imagem 4 da galeia -->
+                <!--ínicio da imagem 5 da galeria-->
+                <div class="gallery col-6 col-md-3">
+                    <img src="img/painel-super-mario-bros.jpg" class="img-fluid"
+                    alt="img-galeria">
+                </div>
+                <!--Fim da imagem 5 da galeia -->
+                <!--ínicio da imagem 6 da galeria-->
+                <div class="gallery col-6 col-md-3">
+                    <img src="img/painel-super-mario-bros.jpg" class="img-fluid"
+                    alt="img-galeria">
+                </div>
+                <!--Fim da imagem 6 da galeia -->
+                <!--ínicio da imagem 7 da galeria-->
+                <div class="gallery col-6 col-md-3">
+                    <img src="img/painel-super-mario-bros.jpg" class="img-fluid"
+                    alt="img-galeria">
+                </div>
+                <!--Fim da imagem 7 da galeia -->
+                <!--ínicio da imagem 8 da galeria-->
+                <div class="gallery col-6 col-md-3">
+                    <img src="img/painel-super-mario-bros.jpg" class="img-fluid"
+                    alt="img-galeria">
+                </div>
+                <!--Fim da imagem 8 da galeia -->
+                <!--ínicio da imagem 9 da galeria-->
+                <div class="gallery col-6 col-md-3">
+                    <img src="img/painel-super-mario-bros.jpg" class="img-fluid"
+                    alt="img-galeria">
+                </div>
+                <!--Fim da imagem 9 da galeia -->
+                <!--ínicio da imagem 10 da galeria-->
+                <div class="gallery col-6 col-md-3">
+                    <img src="img/painel-super-mario-bros.jpg" class="img-fluid"
+                    alt="img-galeria">
+                </div>
+                <!--Fim da imagem 10 da galeia -->
+                <!--ínicio da imagem 11 da galeria-->
+                <div class="gallery col-6 col-md-3">
+                    <img src="img/painel-super-mario-bros.jpg" class="img-fluid"
+                    alt="img-galeria">
+                </div>
+                <!--Fim da imagem 11 da galeia -->
+                <!--ínicio da imagem 12 da galeria-->
+                <div class="gallery col-6 col-md-3">
+                    <img src="img/painel-super-mario-bros.jpg" class="img-fluid"
+                    alt="img-galeria">
+                </div>
+                <!--Fim da imagem 12 da galeia -->            
+                    <footer class= "rodape">
+                        <div class="container">
+                            <div class="row m-0">
+                                <!-- início do logo-->
+                                <div class="col-md-4">
+                                    <figure>
+                                        <img src="img/senai_small.jpg" alt="logo-rodape"
+                                        width="40%">
+                                    </figure>
+                                </div>
+                                <!-- fim do logo-->
+                                <!-- início do texto-->
+                                <div class="col-md-4">
+                                    <div class="info-contato">
+                                        <p>email:</p>
+                                        <p>exemple@valt.com</p><br>
+                                        <p>Endereço:</p>
+                                        <p>Avenida: ABC - 123</p><br>
+                                        <p>Telefone:</p>
+                                        <p>+(55) 9.9922-5500</p><br>
+                                    </div>
+                                </div>
+                                <!-- fim de texto-->
+                                <!--início das mídias sociais-->
+
+                                <!--Alt + shift + seta para baixo (copia e cola)-->
+                                <!--Ctrl + Espaço (mostra o caminho do arquivo dentro do src)-->
+                                <div class="col-md-4">
+                                    <figure class="redes-sociais">
+                                        <a href="#"><img src="Img/face.png"></a>
+                                        <a href="#"><img src="Img/insta.png"></a>
+                                        <a href="#"><img src="Img/youtube.png"></a>
+                                        <a href="#"><img src="Img/linkedin.png"></a>
+                                    </figure>
+                                    <br>
+                                    <a href="#">Jogos</a><br>
+                                    <a href="#">Hardware</a><br>
+                                    <a href="#">Celulares</a><br>
+                                    <a href="#">Pc Gamer</a><br>
+                                    <a href="#">Contato</a><br>
+                                    <a href="#">Login</a><br>                                    
+                                </div>
+                                <!-- Fim das mídias sociais-->
+                                <!--Início dos direitos autorais-->
+                                <div class="col-12">
+                                    <p class="direitos">Direitos Autorais</p>
+                                </div> 
+                                <!--Fim dos direitos Autorais-->                               
+                            </div>
+                        </div>
+                    </footer>
+                    <!-- Fim do texto da galeria-->
+            </div> 
+        </div>
+    </div>    
+</body>
+<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+</html> 

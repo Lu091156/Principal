@@ -1,0 +1,14 @@
+div>
+                    <footer class= "rodape">
+                        <div> class="container"
+                            <div> class="row m-m">
+                                <!-- início do logo-->
+                                <div> class="col-md-a">
+                                    <figure>
+                                        <img src="img/senai_small.jpg" alt="logo-rodape"
+                                        width="40%">
+                                    </figure>
+                                </div>
+                                <!-- fim do logo-->
+
+                                fim
